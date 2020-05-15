@@ -1,0 +1,159 @@
+/***** BASE STYLES *****/
+#about, #portfolio, #contact {
+  text-align: center;
+}
+
+#about {
+  height: 1050px;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+
+/***** GRID ****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 800px;
+}
+
+nav {
+  float: right;
+  padding: 75px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  word-spacing: 25px;
+  color: #313131;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 25px;
+}
+
+header h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color: #313131;
+  font-size: 60px;
+  clear: both;
+}
+
+h1 span {
+  color: #A7B1B8;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+#computer-icon {
+  padding: 75px 25px;
+}
+
+/***** ABOUT *****/
+#about {
+  background: #A7B1B8;
+  height: 1050px;
+  color: #FFFFFF;
+  padding-top: 60px;
+}
+
+#about img {
+  border: 5px solid #FFFFFF;
+  height: 300px;
+}
+
+#about p {
+  padding: 0 75px 0 75px;
+}
+
+/***** PORTFOLIO *****/
+#portfolio {
+  height: 850px;
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+
+
+#portfolio img {
+  width: 340px;
+  border: 1px solid #B7B7B7;
+  padding-bottom: 30px;
+}
+
+#portfolio h4 {
+  margin: 0 0 35px 0;
+  margin: 0 auto;
+}
+
+#portfolio p span {
+  margin: 0 auto;
+}
+
+#portfolio p {
+  padding: 0 50px;
+}
+
+/***** CONTACT *****/
+#contact {
+  height: 650px;
+  background-color: #A7B1B8;
+  color: #FFFFFF;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#contact p {
+  line-height: 10px;
+}
+
+/***** FOOTER *****/
+footer {
+  background-color: #A7B1B8;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+}
